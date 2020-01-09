@@ -28,8 +28,8 @@ def list_of_directors(source)
   # Write this implementation
   director_arr = []
   source.length.times do |names|
-    name =
-    director_arr.push(source[names][:name])
+    d_name = source[names][:name]
+    director_arr.push(d_name)
   end
   reuturn director_arr
 end
