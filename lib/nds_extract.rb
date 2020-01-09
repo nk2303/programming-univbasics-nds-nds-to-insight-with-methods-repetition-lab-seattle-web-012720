@@ -29,6 +29,7 @@ def list_of_directors(source)
   director_arr = []
   source.length.times do |names|
     director_arr.push(source[names][:name])
+  end
   reuturn director_arr
 end
 
