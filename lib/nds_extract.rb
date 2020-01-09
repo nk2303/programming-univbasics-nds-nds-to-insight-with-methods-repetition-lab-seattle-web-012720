@@ -28,7 +28,7 @@ def list_of_directors(source)
   # Write this implementation
   director_arr = []
   source.length.times do |names|
-    director_arr.push()
+    director_arr.push(source[])
   reuturn director_arr
 end
 
