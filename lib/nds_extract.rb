@@ -46,6 +46,7 @@ def total_gross(source)
     dir_name = list_of_directors(source)[dir]
     g_total += directors_totals(source)[dir_name]
   end
+  return total
 end
 
 
